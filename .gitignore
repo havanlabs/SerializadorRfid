@@ -3,3 +3,6 @@
 ################################################################################
 
 /CriptografiaRFID/bin
+/CriptografiaRFID/obj
+/Exemplo/bin/Release
+/Exemplo/obj/Release

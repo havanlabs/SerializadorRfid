@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriptografiaRFID", "CriptografiaRFID\CriptografiaRFID.csproj", "{5A3143AB-2A72-49AA-B73C-C065091F85E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exemplo", "Exemplo\Exemplo.csproj", "{E0386CE7-E388-41C1-B434-28A6D170C1F8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5A3143AB-2A72-49AA-B73C-C065091F85E4} = {5A3143AB-2A72-49AA-B73C-C065091F85E4}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A3143AB-2A72-49AA-B73C-C065091F85E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A3143AB-2A72-49AA-B73C-C065091F85E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A3143AB-2A72-49AA-B73C-C065091F85E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A3143AB-2A72-49AA-B73C-C065091F85E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0386CE7-E388-41C1-B434-28A6D170C1F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0386CE7-E388-41C1-B434-28A6D170C1F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0386CE7-E388-41C1-B434-28A6D170C1F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0386CE7-E388-41C1-B434-28A6D170C1F8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F5BAECE-56E6-4EBD-8126-6335D6C1BF7D}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://hvnbqesrvtfs:8080/tfs/havan
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CriptografiaRFID\\CriptografiaRFID.csproj
+		SccProjectName1 = CriptografiaRFID
+		SccLocalPath1 = CriptografiaRFID
+		SccProjectUniqueName2 = Exemplo\\Exemplo.csproj
+		SccProjectName2 = Exemplo
+		SccLocalPath2 = Exemplo
+	EndGlobalSection
+EndGlobal
