@@ -31,7 +31,7 @@ namespace CriptografiaRFID.Modelos.Epc
             if (barcode.Substring(0, 1) == "0") barcode = barcode.Substring(1, barcode.Length - 1);
 
             //preenche com "0" se não for um ean 13
-            barcode = HelperConverter.fill(barcode, 12);
+            barcode = HelperConverter.fill(barcode, 13);
 
             this.Header = EpcHeaders.GetName(EpcHeaders.SGTIN_96);
             this.Filter = "1";
