@@ -31,16 +31,4 @@ Global
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4F5BAECE-56E6-4EBD-8126-6335D6C1BF7D}
 	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = http://hvnbqesrvtfs:8080/tfs/havan
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = CriptografiaRFID\\CriptografiaRFID.csproj
-		SccProjectName1 = CriptografiaRFID
-		SccLocalPath1 = CriptografiaRFID
-		SccProjectUniqueName2 = Exemplo\\Exemplo.csproj
-		SccProjectName2 = Exemplo
-		SccLocalPath2 = Exemplo
-	EndGlobalSection
 EndGlobal
